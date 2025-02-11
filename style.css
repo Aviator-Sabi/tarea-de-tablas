@@ -26,7 +26,10 @@ body {
   display: flex;
   gap: 30px; /* Adds space between buttons */
 }
-
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .neon {
   margin-top: -150px;
   font-size: var(--font-size);
