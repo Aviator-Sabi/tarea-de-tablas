@@ -1,0 +1,22 @@
+/* Ensure the body takes up the full height of the screen */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-color: #f0f0f0; /* Optional background color */
+  }
+  
+  /* Container for the image */
+  .image-container {
+    text-align: center; /* Centers the image inside the div */
+  }
+  
+  /* Style the image */
+  img {
+    max-width: 60%; /* Adjust this to your desired size (percentage of the viewport width) */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+  
