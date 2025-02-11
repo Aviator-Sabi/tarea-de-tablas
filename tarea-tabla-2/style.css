@@ -1,22 +1,16 @@
-/* Ensure the body takes up the full height of the screen */
 body {
     margin: 0;
     height: 100vh;
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    background-color: #f0f0f0; /* Optional background color */
+    justify-content: center; 
+    align-items: center;
+    background-color: #f0f0f0; 
   }
-  
-  /* Container for the image */
   .image-container {
-    text-align: center; /* Centers the image inside the div */
+    text-align: center;
   }
-  
-  /* Style the image */
   img {
-    max-width: 60%; /* Adjust this to your desired size (percentage of the viewport width) */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: adds rounded corners */
+    width: 1200px;
+    height: auto;
+    border-radius: 10px; 
   }
-  
