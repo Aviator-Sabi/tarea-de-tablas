@@ -33,7 +33,9 @@ a{
 .neon {
   margin-top: -150px;
   font-size: var(--font-size);
-  display: inline-block;
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
   position: relative;
   cursor: pointer;
   border: var(--clr-neon) 0.125em solid;
