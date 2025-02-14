@@ -5,15 +5,15 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
     align-items: center;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 table {
+    border-radius: 10%; /*no me funciona y no tengo tiempo*/
     border-collapse: collapse;
-    margin: 20px;
-    width: 80%;
-    max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,8 +43,4 @@ tr:nth-child(even) td {
 
 table, th, td {
     border: 2px solid #b9b9b9;
-}
-
-table + table {
-    margin-top: 20px;
 }
